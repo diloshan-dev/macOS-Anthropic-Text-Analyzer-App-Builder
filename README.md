@@ -36,6 +36,10 @@ to use it. Users enter their own Anthropic API key, pick a `.txt` file, and
 get an instant AI-generated analysis.
 
 <div align="center">
+  <img src="image.png" alt="App Preview" width="600"/>
+</div>
+
+<div align="center">
   <img src="Screenshot 2026-09-03 102652.png" alt="App Preview" width="600"/>
 </div>
 
