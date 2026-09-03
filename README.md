@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # 🍎 macOS Anthropic Text Analyzer — App Builder
@@ -72,3 +73,57 @@ macOS-Anthropic-Text-Analyzer-App-Builder/
 ├── Requirements.txt    # Required Python packages
 ├── image.png           # Application GUI Preview
 └── README.md           # Project documentation
+---
+
+## 🚀 Quick Start Guide
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/diloshan-dev/macOS-Anthropic-Text-Analyzer-App-Builder.git
+cd macOS-Anthropic-Text-Analyzer-App-Builder
+```
+
+### 2️⃣ Install Required Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the Application
+```bash
+python app.py
+```
+
+### 4️⃣ Use It
+1. Paste your **Anthropic API key** into the key field.
+2. Click **Select Text File** and choose a `.txt` file.
+3. Click **Analyze Text** and wait for the result.
+
+---
+
+## 📦 Building a Standalone macOS App
+
+To package this into a double-clickable `.app` with no terminal needed:
+
+```bash
+pip install pyinstaller
+pyinstaller --noconfirm --onedir --windowed --name "TextAnalyzer" app.py
+```
+
+The finished app will be in `dist/TextAnalyzer/`. Copy `TextAnalyzer.app` into
+your `Applications` folder to run it like any other Mac app.
+
+> ⚠️ Users still need to enter their **own** Anthropic API key on first launch — no key is bundled with the app.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+<div align="center">
+
+Made with ❤️ using Python & CustomTkinter
+
+</div>
