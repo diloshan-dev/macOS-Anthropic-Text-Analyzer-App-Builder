@@ -24,7 +24,7 @@ that analyzes `.txt` files using the Anthropic Claude API.**
 - [Quick Start Guide](#-quick-start-guide)
 - [Building a Standalone macOS App](#-building-a-standalone-macos-app)
 - [License](#-license)
-
+![App Preview](assets/app_preview.png)
 ---
 
 ## 📝 About
